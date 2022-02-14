@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&family=Roboto:ital,wght@1,300&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   color: #f9faf8;
@@ -15,7 +14,8 @@ h1 {
   font-weight: bolder;
 }
 nav,
-#hero {
+#hero,
+footer {
   background: #1f2937;
 }
 nav {
@@ -49,4 +49,63 @@ button {
   border: 1px solid #3882f6;
   border-radius: 0.4em;
   padding: 0.2em 1em;
+}
+p.description,
+h2 {
+  color: #1f2937;
+}
+h2 {
+  text-align: center;
+}
+.description {
+  text-align: center;
+  margin: 0.4em 0;
+}
+.figure {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 1em;
+}
+.randomInfo {
+  display: flex;
+  gap: 6em;
+  justify-content: center;
+  padding: 1em 12em;
+}
+.quote {
+  background: #e5e7eb;
+  color: #1f2937;
+  padding: 6em;
+}
+blockquote {
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+}
+cite {
+  font-weight: 900;
+  font-style: normal;
+  display: block;
+  text-align: right;
+}
+.blueBox {
+  background: #3882f6;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 11em;
+  padding: 1em;
+  margin: 5em;
+  border-radius: 0.6em;
+}
+.cta {
+  border: 2px solid #f9faf8;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
